@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+mysql-connector-python
+pydantic
+jinja2
+passlib[bcrypt]  # 비밀번호 암호화 라이브러리

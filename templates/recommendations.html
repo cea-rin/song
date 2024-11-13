@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>추천 곡 목록</title>
+    <style>
+        :root {
+            --primary-color: #1DB954;
+            --secondary-color: #191414;
+            --background-color: #121212;
+            --text-color: #FFFFFF;
+            --card-background: #282828;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+        }
+        
+        li {
+            background-color: var(--card-background);
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+        
+        strong {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        iframe {
+            border-radius: 8px;
+            margin-top: 15px;
+            width: 100%;
+        }
+        
+        .button-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+        button:hover {
+            background-color: #1ed760;
+            transform: scale(1.05);
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>추천 곡 목록</h2>
+    <ul>
+        {% for song in recommended_songs %}
+        <li>
+            <strong>{{ song.song_name }}</strong> - {{ song.artist }}
+            <iframe src="{{ song.url }}" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="button-container">
+        <button onclick="window.location.reload()">다시 추천 받기</button>
+        <button onclick="window.location.href='/'">로그아웃</button>
+        <button onclick="window.location.href='/recommendations'">뒤로가기</button>
+    </div>
+
+</body>
+</html>

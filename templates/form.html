@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Song Recommendation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .animated-circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #1DB954;
+            border-radius: 50%;
+            filter: blur(80px);
+            animation: move 20s infinite alternate ease-in-out, resize 15s infinite alternate ease-in-out;
+            z-index: -1;
+
+        }
+
+        @keyframes move {
+    0% {
+        top: 10%;
+        left: 10%;
+    }
+    25% {
+        top: 20%;
+        left: 80%;
+    }
+    50% {
+        top: 80%;
+        left: 60%;
+    }
+    75% {
+        top: 60%;
+        left: 20%;
+    }
+    100% {
+        top: 30%;
+        left: 10%;
+    }
+}
+
+
+        /* 크기 변경을 위한 애니메이션 */
+        @keyframes resize {
+            0% {
+                transform: scale(0.5);
+            }
+            25% {
+                transform: scale(1.2);
+            }
+            50% {
+                transform: scale(0.8);
+            }
+            75% {
+                transform: scale(1.5);
+            }
+            100% {
+                transform: scale(1.0);
+            }
+        }
+
+        .container {
+            position: relative;
+            background-color: #222222;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            z-index: 10;
+            opacity: 0.8; /* 컨테이너와 내부 요소 전체에 투명도 적용 */
+        }
+
+        h2 {
+            text-align: center;
+            color: #1DB954;
+            margin-bottom: 1.5rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        select, input[type="number"] {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #3E3E3E;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+        button {
+            background-color: #1DB954;
+            color: #ffffff;
+            border: none;
+            padding: 0.75rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #1ED760;
+        }
+    </style>
+</head>
+<body>
+    <!-- 애니메이션 효과가 있는 배경 원 -->
+    <div class="animated-circle"></div>
+
+    <div class="container">
+        <h2>노래 추천 받기</h2>
+        <form action="/recommendations" method="post">
+            <label for="danceability">춤 추고 싶다:</label>
+            <select name="danceability" required>
+                <option value="0.0">매우 싫음</option>
+                <option value="0.25">싫음</option>
+                <option value="0.5">중간</option>
+                <option value="0.75">좋음</option>
+                <option value="1.0">매우 좋음</option>
+            </select>
+            
+            <label for="energy">에너지:</label>
+            <select name="energy" required>
+                <option value="0.0">매우 낮음</option>
+                <option value="0.25">낮음</option>
+                <option value="0.5">중간</option>
+                <option value="0.75">높음</option>
+                <option value="1.0">매우 높음</option>
+            </select>
+            
+            <label for="instrumentalness">연주곡 선호:</label>
+            <select name="instrumentalness" required>
+                <option value="0.0">연주곡 비선호</option>
+                <option value="1.0">연주곡 선호</option>
+            </select>
+            
+            <label for="valence">밝은 노래 선호도:</label>
+            <select name="valence" required>
+                <option value="0.0">매우 낮음</option>
+                <option value="0.25">낮음</option>
+                <option value="0.5">중간</option>
+                <option value="0.75">높음</option>
+                <option value="1.0">매우 높음</option>
+            </select>
+            
+            <label for="tempo">빠르기 (BPM : 50~250):</label>
+            <input type="number" name="tempo" step="10" min="50" max="250" required>
+            
+            <label for="acousticness">어쿠스틱 기반 선호도:</label>
+            <select name="acousticness" required>
+                <option value="0.0">매우 낮음</option>
+                <option value="0.25">낮음</option>
+                <option value="0.5">중간</option>
+                <option value="0.75">높음</option>
+                <option value="1.0">매우 높음</option>
+            </select>
+            
+            <button type="submit">노래 추천 받기</button>
+        </form>
+    </div>
+
+    <script>
+        // 랜덤으로 크기를 설정하는 함수
+        function randomizeCircleSize() {
+            const circle = document.querySelector('.animated-circle');
+            setInterval(() => {
+                const randomScale = (Math.random() * (1.5 - 0.5) + 0.5).toFixed(2); // 0.5에서 1.5 사이의 랜덤 값
+                circle.style.transform = `scale(${randomScale})`;
+            }, 5000); // 5초마다 랜덤 크기 적용
+        }
+
+        // 페이지 로드 시 랜덤 크기 설정 함수 실행
+        window.onload = randomizeCircleSize;
+    </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        :root {
+            --primary-color: #1DB954;
+            --secondary-color: #191414;
+            --background-color: #191414;
+            --text-color: #FFFFFF;
+            --input-background: #282828;
+            --error-color: #FF4136;
+        }
+
+        .animated-circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #FFEBEE;
+            border-radius: 50%;
+            filter: blur(80px);
+            animation: move 20s infinite alternate ease-in-out, resize 15s infinite alternate ease-in-out;
+            z-index: -1; /* 컨테이너보다 낮은 z-index로 설정 */
+        }
+
+        @keyframes move {
+            0% { top: 10%; left: 10%; }
+            25% { top: 20%; left: 80%; }
+            50% { top: 80%; left: 60%; }
+            75% { top: 60%; left: 20%; }
+            100% { top: 30%; left: 10%; }
+        }
+
+        @keyframes resize {
+            0% { transform: scale(0.5); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(0.8); }
+            75% { transform: scale(1.5); }
+            100% { transform: scale(1.0); }
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative; /* 컨테이너의 레이어 조정을 위해 추가 */
+            background-color: #222222;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 350px;
+            opacity: 1;
+            z-index: 0; /* 원보다 앞에 있도록 설정 */
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            text-align: left;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="email"], input[type="password"] {
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 4px;
+            background-color: var(--input-background);
+            color: var(--text-color);
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            border: none;
+            padding: 0.75rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1ed760;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .message {
+            color: var(--error-color);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-circle"></div>
+    <div class="container">
+        <h1>Login</h1>
+
+        {% if message %}
+            <p class="message">{{ message }}</p>
+        {% endif %}
+
+        <form action="/login" method="post">
+            <label for="email">ID:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Login">
+        </form>
+
+        <p>Don't have an account? <a href="/register">Register here</a></p>
+    </div>
+
+    <script>
+        // 랜덤 시작 위치 설정
+        const circle = document.querySelector('.animated-circle');
+        const randomTop = Math.random() * (window.innerHeight - circle.offsetHeight);
+        const randomLeft = Math.random() * (window.innerWidth - circle.offsetWidth);
+
+        // 랜덤 위치 적용
+        circle.style.top = `${randomTop}px`;
+        circle.style.left = `${randomLeft}px`;
+    </script>
+</body>
+</html>

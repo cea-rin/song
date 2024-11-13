@@ -1,0 +1,523 @@
+{
+    "abc@naver.com": {
+        "password": "1234",
+        "recommendations": []
+    },
+    "a@12.34": {
+        "password": "1234",
+        "recommendations": []
+    },
+    "c@naver.com": {
+        "password": "1234",
+        "recommendations": []
+    },
+    "w@naver.com": {
+        "password": "1234",
+        "recommendations": [
+            {
+                "song_name": "Dear TV (\ud574\uc5f4)",
+                "artist": "Tablo",
+                "url": "https://open.spotify.com/embed/track/0IRJadRzG1ypfqEgb1BxGS"
+            },
+            {
+                "song_name": "Telepathy",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/55bPp9fJlhnsPR9nUpwQyw"
+            },
+            {
+                "song_name": "\ud65c",
+                "artist": "\uae40\ud0dc\uc131",
+                "url": "https://open.spotify.com/embed/track/70yagRK5PfSHCA9oducpYm"
+            },
+            {
+                "song_name": "\ub110 \uc704\ud574 \ubd80\ub974\ub294 \uc774 \ub178\ub798",
+                "artist": "BoM",
+                "url": "https://open.spotify.com/embed/track/6J4SJGJzFtOSHAk9smrsGe"
+            },
+            {
+                "song_name": "Chaconne",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/3re4JeM44NOnVVy5R2N9aU"
+            },
+            {
+                "song_name": "\ucc28\ub9c8..",
+                "artist": "DOZ",
+                "url": "https://open.spotify.com/embed/track/6DOTDn1Xaevmd1omsx5bH5"
+            },
+            {
+                "song_name": "The Boys *Bring The Boys Out* - David Anthony Remix",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/79T3xUc14GQIKX3W1jpRFf"
+            },
+            {
+                "song_name": "\ub2ec\uadf8\ub9bc\uc790 (Inst.)",
+                "artist": "\uae40\ud0dc\uc131",
+                "url": "https://open.spotify.com/embed/track/3s73EEL17rTB6Y0mYlhrIl"
+            },
+            {
+                "song_name": "Feeling",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/74tiY9OJJIOvc8jVoeHi0m"
+            },
+            {
+                "song_name": "I Can't Let U Go (feat. Hwayoung)",
+                "artist": "J-Dogg",
+                "url": "https://open.spotify.com/embed/track/5xxLxevjQSy8MBcWwHwwUU"
+            },
+            {
+                "song_name": "Something Special (Inst.)",
+                "artist": "\ubc15\ud61c\uacbd (Hye Kyung Park)",
+                "url": "https://open.spotify.com/embed/track/0FGqeMVeFGzRsWStJWiP6F"
+            },
+            {
+                "song_name": "Revolver",
+                "artist": "Molly Maguires",
+                "url": "https://open.spotify.com/embed/track/2EPALqqjXhbLVcFdmsPfbq"
+            },
+            {
+                "song_name": "I Wanna Clap I Wanna Dance",
+                "artist": "DOZ",
+                "url": "https://open.spotify.com/embed/track/6OXGOPTkliS1sSENocT5l4"
+            },
+            {
+                "song_name": "Great Is Your Reward In Heaven",
+                "artist": "Steve Lamount Harrold",
+                "url": "https://open.spotify.com/embed/track/3FEiRMP2H87EAyny5pcmWe"
+            },
+            {
+                "song_name": "\uc2ac\ud514, \ubb3c \uc704\uc5d0 \uc7a0\ub4e4\ub2e4",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/41f4LhwN6FH3OSOt6fAWnw"
+            },
+            {
+                "song_name": "\ub180\uc790\ubcd1",
+                "artist": "Hwaii",
+                "url": "https://open.spotify.com/embed/track/24e3JyWXGBDoI3yWiHFceQ"
+            },
+            {
+                "song_name": "\ud53c\ud130\uc758 \ub178\ub798",
+                "artist": "JAURIM",
+                "url": "https://open.spotify.com/embed/track/7j4QBNYckEk6FlgumKCtmO"
+            },
+            {
+                "song_name": "High High",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/0XyYzDRNJnVSvnFYXJiYtR"
+            },
+            {
+                "song_name": "Love pop (Acoustic ver.)",
+                "artist": "Shin Goeun",
+                "url": "https://open.spotify.com/embed/track/6mObvBogGJSVqKOp8RNebE"
+            },
+            {
+                "song_name": "\uc0ac\uacfc",
+                "artist": "Pudditorium",
+                "url": "https://open.spotify.com/embed/track/19uEyLqMJ5nGYvCwsGELQi"
+            },
+            {
+                "song_name": "The Boys - Instrumental",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/5Br78Dc1wTEZnic1NQpAgA"
+            },
+            {
+                "song_name": "Missing U (\ubc15\uc7ac\ubc94 \ub304\uc2a4 Scene)",
+                "artist": "Unknown",
+                "url": "https://open.spotify.com/embed/track/6ShM2L8NSn3OkJGCYuGxNb"
+            },
+            {
+                "song_name": "\ud558\ub298 \uc0ac\uc774\ub85c",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/13yFoX3dRztJ1Snk6ddRbX"
+            },
+            {
+                "song_name": "Here To Stay - SKULL featuring Mighty Mystic",
+                "artist": "SKULL",
+                "url": "https://open.spotify.com/embed/track/4TlN6gykUprYUyjaI8CeQD"
+            },
+            {
+                "song_name": "HIGH HIGH",
+                "artist": "GD&TOP",
+                "url": "https://open.spotify.com/embed/track/6DmjdFSnP6asXWXTjkEhCP"
+            },
+            {
+                "song_name": "Fantastic Baby",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/44jlAR4JltMotTZJE24KaE"
+            },
+            {
+                "song_name": "\uc774\uc820 \uc9c0\ucce4\uc5b4.. (feat. \ud788\ub098\uc778)",
+                "artist": "1sagain",
+                "url": "https://open.spotify.com/embed/track/72MQRHhjnF1JKv2RddjZ6k"
+            },
+            {
+                "song_name": "\ubd88\ud589\ud588\uc74c \uc88b\uaca0\ub2e4 (inst.)",
+                "artist": "San E",
+                "url": "https://open.spotify.com/embed/track/4zvvArq70x5nnKBZAcWIBJ"
+            },
+            {
+                "song_name": "Paris",
+                "artist": "Yoon Han",
+                "url": "https://open.spotify.com/embed/track/467ZFgnPyqTxpxdCt1SYwO"
+            },
+            {
+                "song_name": "Ryu's Reffusal",
+                "artist": "\ubd80\ubd80(Booboo)",
+                "url": "https://open.spotify.com/embed/track/5Kbn22ECwQ3VT2YBDRpnR5"
+            },
+            {
+                "song_name": "Tout Contre Moi (Right Here)",
+                "artist": "Pudditorium",
+                "url": "https://open.spotify.com/embed/track/1trNxSGrjJq51TfYmiRsYA"
+            },
+            {
+                "song_name": "Go Away",
+                "artist": "2NE1",
+                "url": "https://open.spotify.com/embed/track/6KkYCB6qc4m8EXauv7VNnB"
+            },
+            {
+                "song_name": "\uc1a1",
+                "artist": "\uae40\ud0dc\uc131",
+                "url": "https://open.spotify.com/embed/track/5jFqsfzFps7fAjPJHPjPup"
+            },
+            {
+                "song_name": "\uad6c\uc6d0 (inst.)",
+                "artist": "JOYjin(\uc870\uc774\uc9c4)",
+                "url": "https://open.spotify.com/embed/track/108rWZS3lMtD9Gqdlqiqqd"
+            },
+            {
+                "song_name": "When I Fall In Love",
+                "artist": "Yoon Han",
+                "url": "https://open.spotify.com/embed/track/4LZwI5tbb2T0MPDroqDQ8b"
+            },
+            {
+                "song_name": "2HOT",
+                "artist": "G.NA",
+                "url": "https://open.spotify.com/embed/track/5CaFore8Phz3TQPmpntwSN"
+            },
+            {
+                "song_name": "Joy",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/4LLHX6NQjwkRLGJmjm5UvL"
+            },
+            {
+                "song_name": "\ud5e4\uc5b4\uc9c8\uae4c..",
+                "artist": "STi",
+                "url": "https://open.spotify.com/embed/track/7jfvCjknguTcaqe2ju1Li4"
+            },
+            {
+                "song_name": "\uadf8\ub300\ub9cc \ubcf4\uc774\ub124\uc694",
+                "artist": "Nam Gyu ri",
+                "url": "https://open.spotify.com/embed/track/58Erj6cOfvqpYPPlC42NLA"
+            },
+            {
+                "song_name": "\ud0c8",
+                "artist": "\uae40\ud0dc\uc131",
+                "url": "https://open.spotify.com/embed/track/4Sn1KnFD4nLY23wzaC1zsg"
+            },
+            {
+                "song_name": "Own Way",
+                "artist": "\ub354\ub354 \ubc34\ub4dc(TheThE Band)",
+                "url": "https://open.spotify.com/embed/track/7FBjmktsY7RJrXfGkf6L5C"
+            },
+            {
+                "song_name": "Dancing Queen",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/4BFRz4l3lBD2xFmQeGLmZe"
+            },
+            {
+                "song_name": "\uc9dd (inst.)",
+                "artist": "lady Jane",
+                "url": "https://open.spotify.com/embed/track/4kr2Hhxe1GnAHwgSRgAiF4"
+            },
+            {
+                "song_name": "Let's Go Party",
+                "artist": "2NE1",
+                "url": "https://open.spotify.com/embed/track/1zC7E7fjZ7lUgB72ZzukY4"
+            },
+            {
+                "song_name": "\ub2f5\ub2f5",
+                "artist": "JAURIM",
+                "url": "https://open.spotify.com/embed/track/0ccTWdaRyyzFkkZEi0BuXL"
+            },
+            {
+                "song_name": "\ube44\ucf1c\uc918",
+                "artist": "NEW Block Babyz & Prime Bay",
+                "url": "https://open.spotify.com/embed/track/5dhJdQVxoHiX0wrIXDmcsk"
+            },
+            {
+                "song_name": "Star",
+                "artist": "Jay Park",
+                "url": "https://open.spotify.com/embed/track/5ho7Qp4IDMane2OugQYeWN"
+            },
+            {
+                "song_name": "10\ubd84\ub9cc \uac78\uc73c\uba74 (With \ub9ac\uce58) (inst.)",
+                "artist": "\ud06c\ub9ac\uc2a4",
+                "url": "https://open.spotify.com/embed/track/3B6L5LPII5By5IwyCPQYZY"
+            },
+            {
+                "song_name": "The Boys *Bring The Boys* - Teddy Riley Remix",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/1Ng9NAspKGv8GvZmlIj2Kw"
+            },
+            {
+                "song_name": "Love Treatment (feat. \uc5b8\ud130\ucc98\ube14)",
+                "artist": "lady Jane",
+                "url": "https://open.spotify.com/embed/track/6k4RVGs0AK7vrNprwbLCvh"
+            },
+            {
+                "song_name": "IMAGINATION",
+                "artist": "\ubd80\ubd80(Booboo)",
+                "url": "https://open.spotify.com/embed/track/65EDxAEoIiVJ6VjJV7III9"
+            },
+            {
+                "song_name": "\ud558\ub298 \uc0ac\uc774\ub85c",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/13yFoX3dRztJ1Snk6ddRbX"
+            },
+            {
+                "song_name": "The Boys",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/6o6XlivwGtP1JgQZ8IAwty"
+            },
+            {
+                "song_name": "Big Hands",
+                "artist": "Molly Maguires",
+                "url": "https://open.spotify.com/embed/track/5g97bSbt2Y9E2jrlBcv6Fv"
+            },
+            {
+                "song_name": "Boom Di Boom Di - Instrumental",
+                "artist": "SKULL",
+                "url": "https://open.spotify.com/embed/track/3SUqy9jCirNsR6J2MGFWzB"
+            },
+            {
+                "song_name": "Lollipop (Bonus Track) [BIGBANG & 2NE1]",
+                "artist": "2NE1",
+                "url": "https://open.spotify.com/embed/track/0J3DXNGMAW5ZcspbCB6Is6"
+            },
+            {
+                "song_name": "Brother And Sister",
+                "artist": "G.NA",
+                "url": "https://open.spotify.com/embed/track/61Xu04ijZgZS7Np84nHZhq"
+            },
+            {
+                "song_name": "Press Play",
+                "artist": "BTOB",
+                "url": "https://open.spotify.com/embed/track/75DMPutlYpZ5ndt9EN5Xoc"
+            },
+            {
+                "song_name": "Chug Chug (Dirty) (Feat. D. Theo of Soul Dive)",
+                "artist": "UMC/UW",
+                "url": "https://open.spotify.com/embed/track/02VLytaQGy2dugHnltyg1x"
+            },
+            {
+                "song_name": "\ub110 \uc704\ud574 \ubd80\ub974\ub294 \uc774 \ub178\ub798",
+                "artist": "BoM",
+                "url": "https://open.spotify.com/embed/track/6J4SJGJzFtOSHAk9smrsGe"
+            },
+            {
+                "song_name": "BABY GOOD NIGHT",
+                "artist": "GD&TOP",
+                "url": "https://open.spotify.com/embed/track/66P1OXbpaQYFJiiYY1u1tW"
+            },
+            {
+                "song_name": "Go Away",
+                "artist": "2NE1",
+                "url": "https://open.spotify.com/embed/track/6KkYCB6qc4m8EXauv7VNnB"
+            },
+            {
+                "song_name": "IMAGINATION",
+                "artist": "\ubd80\ubd80(Booboo)",
+                "url": "https://open.spotify.com/embed/track/65EDxAEoIiVJ6VjJV7III9"
+            },
+            {
+                "song_name": "\uae68\uc838",
+                "artist": "STi",
+                "url": "https://open.spotify.com/embed/track/0d7zYrwXOkCfjnCfocdYLJ"
+            },
+            {
+                "song_name": "The Boys *Bring The Boys* - Teddy Riley Remix",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/1Ng9NAspKGv8GvZmlIj2Kw"
+            },
+            {
+                "song_name": "Girl Friend",
+                "artist": "Jay Park",
+                "url": "https://open.spotify.com/embed/track/7ETF6i7OdQangmvaB68nG8"
+            },
+            {
+                "song_name": "\ub2e4\ub978 \uc598\uae30 \uc880 \ud558\uc790 (inst.)",
+                "artist": "SOOL J & STi",
+                "url": "https://open.spotify.com/embed/track/2npV0FotZtnSblfMrDfsB3"
+            },
+            {
+                "song_name": "\ube48 \uc790\ub9ac (inst.)",
+                "artist": "Click-B",
+                "url": "https://open.spotify.com/embed/track/7AJrKfRAcAEDxPImUcyy74"
+            },
+            {
+                "song_name": "\uc560\uc778 \uc788\uc5b4\uc694",
+                "artist": "KIM BUMSOO",
+                "url": "https://open.spotify.com/embed/track/2ZL0dMwZgqL3GMX7AhkhY7"
+            },
+            {
+                "song_name": "Monster",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/1f8fcR6UX6BhqFfK7wLPrP"
+            },
+            {
+                "song_name": "Boom Di Boom Di - TV Mix",
+                "artist": "SKULL",
+                "url": "https://open.spotify.com/embed/track/4wBzUXv6FGv5CedIx8FRwX"
+            },
+            {
+                "song_name": "\uc6b0\ub9ac \uacb0\ud63c\uae4c\uc9c0 \ud558\uc790 (inst.)",
+                "artist": "5tion",
+                "url": "https://open.spotify.com/embed/track/35JrJeev0nasTLz3wChKtT"
+            },
+            {
+                "song_name": "C'est La Vie",
+                "artist": "Hwaii",
+                "url": "https://open.spotify.com/embed/track/1kLplichTf2yemEEz7kD9u"
+            },
+            {
+                "song_name": "Revolver",
+                "artist": "Molly Maguires",
+                "url": "https://open.spotify.com/embed/track/2EPALqqjXhbLVcFdmsPfbq"
+            },
+            {
+                "song_name": "That Guy (\uadf8\ub7f0 \uc0ac\ub78c)",
+                "artist": "SE7EN",
+                "url": "https://open.spotify.com/embed/track/2i76Nf27MrTGYceSgnEgWT"
+            },
+            {
+                "song_name": "F*** U (feat. Deepflow, J-Kwondo of 45 RPM)",
+                "artist": "J-Dogg",
+                "url": "https://open.spotify.com/embed/track/2c1Fbb7DfPgp9wULdDNOTP"
+            },
+            {
+                "song_name": "Miss Pretty",
+                "artist": "Basick & Kim Saehangil",
+                "url": "https://open.spotify.com/embed/track/3aIigJIiEvJqiixDxSjG7S"
+            },
+            {
+                "song_name": "Spring Rain",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/3tVURloUbySZJdxd6eFXuT"
+            },
+            {
+                "song_name": "\uc7a0\uc2e4 \uadc0\uc694\ubbf8",
+                "artist": "STi",
+                "url": "https://open.spotify.com/embed/track/7uzSBQFXE98drAzMN6Jg5D"
+            },
+            {
+                "song_name": "The Boys *Bring The Boys* - Teddy Riley Remix",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/2XwJeuImERiuOKHq0e9tV6"
+            },
+            {
+                "song_name": "That Guy (\uadf8\ub7f0 \uc0ac\ub78c)",
+                "artist": "SE7EN",
+                "url": "https://open.spotify.com/embed/track/2i76Nf27MrTGYceSgnEgWT"
+            },
+            {
+                "song_name": "\uc815\ub9d0 \ub0b4\uac00 \uc8fd\uc744 \uc8c4\ub97c \uc9c0\uc5c8\uc5b4 (inst.)",
+                "artist": "DOZ",
+                "url": "https://open.spotify.com/embed/track/2f4fIWotqWTzlHMjw2PX89"
+            },
+            {
+                "song_name": "Slick 60",
+                "artist": "Molly Maguires",
+                "url": "https://open.spotify.com/embed/track/6EzmfXEatFoqBGFva7hXha"
+            },
+            {
+                "song_name": "Press Play",
+                "artist": "BTOB",
+                "url": "https://open.spotify.com/embed/track/75DMPutlYpZ5ndt9EN5Xoc"
+            },
+            {
+                "song_name": "Love Dust (\uc0ac\ub791\uba3c\uc9c0)",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/6OcyR4hDnIv7fwKF9Ev6h1"
+            },
+            {
+                "song_name": "The Boys *Bring The Boys* - Teddy Riley Remix",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/1Ng9NAspKGv8GvZmlIj2Kw"
+            },
+            {
+                "song_name": "Chug Chug (Feat. D. Theo of Soul Dive)",
+                "artist": "UMC/UW",
+                "url": "https://open.spotify.com/embed/track/58TeoU1db8bEE8P0YkEEF7"
+            },
+            {
+                "song_name": "I Can't Let U Go (feat. Hwayoung)",
+                "artist": "J-Dogg",
+                "url": "https://open.spotify.com/embed/track/5xxLxevjQSy8MBcWwHwwUU"
+            },
+            {
+                "song_name": "\uaf43",
+                "artist": "Hwaii",
+                "url": "https://open.spotify.com/embed/track/1C8ta7fQuZURekm6WtYxDd"
+            },
+            {
+                "song_name": "\ubd88\uaf43\ucc98\ub7fc",
+                "artist": "BoM",
+                "url": "https://open.spotify.com/embed/track/7nf94aFq7PChT6rlC5dvQR"
+            },
+            {
+                "song_name": "\ub110 \uadf8\ub9ac\ub2e4 (The Things I Really)",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/5GVJzw8inFp96VBK40QnFc"
+            },
+            {
+                "song_name": "Chug Chug (Inst.)",
+                "artist": "UMC/UW",
+                "url": "https://open.spotify.com/embed/track/6oyqUfOl7jTbOx8fdupEwp"
+            },
+            {
+                "song_name": "Trace (\ucd9c\ucc98) [Scratch By DJ Tukutz]",
+                "artist": "Tablo",
+                "url": "https://open.spotify.com/embed/track/6rk3wcZdX2HwAjC0PHeOQw"
+            },
+            {
+                "song_name": "Love Dust (\uc0ac\ub791\uba3c\uc9c0)",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/6OcyR4hDnIv7fwKF9Ev6h1"
+            },
+            {
+                "song_name": "Happy Birthday To You (Inst.)",
+                "artist": "\uc640\uc0ac\ube44\uc0ac\uc6b4\ub4dc (Wasabii Sound)",
+                "url": "https://open.spotify.com/embed/track/2q4ciJHnmtJTwrN8us8fCu"
+            },
+            {
+                "song_name": "The Boys *Bring Dem Boys*",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/1t1pTgdPrhJGMwt5gZqFel"
+            },
+            {
+                "song_name": "Good Woman",
+                "artist": "J-Dogg",
+                "url": "https://open.spotify.com/embed/track/65MY7lchjvHZqkwZS2Racj"
+            },
+            {
+                "song_name": "Star",
+                "artist": "Jay Park",
+                "url": "https://open.spotify.com/embed/track/5ho7Qp4IDMane2OugQYeWN"
+            },
+            {
+                "song_name": "\ud53c\ud130\uc758 \ub178\ub798",
+                "artist": "JAURIM",
+                "url": "https://open.spotify.com/embed/track/7j4QBNYckEk6FlgumKCtmO"
+            },
+            {
+                "song_name": "IMAGINATION",
+                "artist": "\ubd80\ubd80(Booboo)",
+                "url": "https://open.spotify.com/embed/track/65EDxAEoIiVJ6VjJV7III9"
+            }
+        ]
+    },
+    "1@2.3": {
+        "password": "1234",
+        "recommendations": []
+    }
+}

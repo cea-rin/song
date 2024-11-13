@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #45a049;
+            --background-color: #f0f2f5;
+            --form-background: #ffffff;
+            --text-color: #333333;
+            --error-color: #ff4444;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: var(--form-background);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center; /* 컨테이너 안의 모든 요소 중앙 정렬 */
+        }
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 폼 요소들을 중앙으로 정렬 */
+        }
+        label {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+            text-align: left;
+            width: 100%;
+            max-width: 300px; /* 라벨과 입력 필드 폭을 고정 */
+        }
+        input[type="email"], input[type="password"] {
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+            width: 100%;
+            max-width: 300px; /* 입력 필드 폭 고정 */
+        }
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            max-width: 300px; /* 버튼 최대 너비 고정 */
+        }
+        input[type="submit"]:hover {
+            background-color: var(--secondary-color);
+        }
+        .message {
+            color: var(--error-color);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            color: var(--text-color);
+        }
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .animated-circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #1DB954;
+            border-radius: 50%;
+            filter: blur(80px);
+            animation: move 20s infinite alternate ease-in-out, resize 15s infinite alternate ease-in-out;
+            z-index: -1;
+        }
+        @keyframes move {
+            0% { top: 10%; left: 10%; }
+            25% { top: 20%; left: 80%; }
+            50% { top: 80%; left: 60%; }
+            75% { top: 60%; left: 20%; }
+            100% { top: 30%; left: 10%; }
+        }
+        @keyframes resize {
+            0% { transform: scale(0.5); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(0.8); }
+            75% { transform: scale(1.5); }
+            100% { transform: scale(1.0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-circle"></div>
+
+    <div class="container">
+        <h1>Register</h1>
+
+        {% if message %}
+            <p class="message">{{ message }}</p>
+        {% endif %}
+
+        <form action="/register" method="post">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <input type="submit" value="Register">
+        </form>
+
+        <p>Already have an account? <a href="/login">Login here</a></p>
+    </div>
+</body>
+</html>
