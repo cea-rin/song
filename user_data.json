@@ -519,5 +519,9 @@
     "1@2.3": {
         "password": "1234",
         "recommendations": []
+    },
+    "1@naver.com": {
+        "password": "1234",
+        "recommendations": []
     }
 }
