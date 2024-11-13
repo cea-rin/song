@@ -1,7 +1,108 @@
 {
     "abc@naver.com": {
         "password": "1234",
-        "recommendations": []
+        "recommendations": [
+            {
+                "song_name": "\ub098\uc5d0\uac8c\ub85c (To My Heart)",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/3CSMZREOXOmRLAAbU6LqJK"
+            },
+            {
+                "song_name": "\uc5b8\uc820\uac00 \uc62c \uac83 \uac19\uc558\ub358 \ub73b\ubc16\uc758 \uc21c\uac04 (Meditation Mix)",
+                "artist": "STi",
+                "url": "https://open.spotify.com/embed/track/7hjEurRUwIYI9Ktduu9QMD"
+            },
+            {
+                "song_name": "\ub098\ubb34\ud1a0\ub9c9",
+                "artist": "V.A",
+                "url": "https://open.spotify.com/embed/track/5SdSajpI4mTB0ED2GScNAe"
+            },
+            {
+                "song_name": "Dear TV (\ud574\uc5f4)",
+                "artist": "Tablo",
+                "url": "https://open.spotify.com/embed/track/0IRJadRzG1ypfqEgb1BxGS"
+            },
+            {
+                "song_name": "\uadf8\ub300\uac00 \uc5c6\ub2e4\uace0 \ud574\uc11c.. \uac11\uc790\uae30 \ub0b4\uac00 \uc2ac\ud37c\uc9c0\ub294 \uac83\uc740 \uc544\ub2c8\ub2e4..",
+                "artist": "\uc5d0\ubc18",
+                "url": "https://open.spotify.com/embed/track/7ijlRAlJacgg88Sf9MyfDK"
+            },
+            {
+                "song_name": "Blue",
+                "artist": "BIGBANG",
+                "url": "https://open.spotify.com/embed/track/6FpGiWJHMs78QGzVAjNOlw"
+            },
+            {
+                "song_name": "\uae30\ub2e4\ub9b0\ub2e4 (Sad Version)",
+                "artist": "\ud050\uc81c\uc774",
+                "url": "https://open.spotify.com/embed/track/62HZygUjdZsYVe3Au2NXzg"
+            },
+            {
+                "song_name": "\uae30\ub2e4\ub824, \uae30\ub2e4\ub9b4\uac8c (Inst.)",
+                "artist": "\uc18c\uc6b8\ub808\uc778",
+                "url": "https://open.spotify.com/embed/track/5dxgxQ11cPMCqXSy1AP0pI"
+            },
+            {
+                "song_name": "\ube44\ucf1c\uc918",
+                "artist": "NEW Block Babyz & Prime Bay",
+                "url": "https://open.spotify.com/embed/track/5dhJdQVxoHiX0wrIXDmcsk"
+            },
+            {
+                "song_name": "HAPPY DAY",
+                "artist": "JAURIM",
+                "url": "https://open.spotify.com/embed/track/1pVf7mbUeNWMlNqvfebfl4"
+            },
+            {
+                "song_name": "Go Away",
+                "artist": "2NE1",
+                "url": "https://open.spotify.com/embed/track/6KkYCB6qc4m8EXauv7VNnB"
+            },
+            {
+                "song_name": "\ub2f5\ub2f5",
+                "artist": "JAURIM",
+                "url": "https://open.spotify.com/embed/track/0ccTWdaRyyzFkkZEi0BuXL"
+            },
+            {
+                "song_name": "\uc6c3\uc5b4\ub3c4 \uc6c3\uc5b4\ub3c4",
+                "artist": "\ubcc4 & \uc640\uc0ac\ube44\uc0ac\uc6b4\ub4dc",
+                "url": "https://open.spotify.com/embed/track/1FFMy1NXGlPQLw6fDxwFsl"
+            },
+            {
+                "song_name": "The Senior (\uf934\u5c07) (Inst.)",
+                "artist": "BILL STAX",
+                "url": "https://open.spotify.com/embed/track/4P6121AyLHyUzsdXwtY2wo"
+            },
+            {
+                "song_name": "My J",
+                "artist": "Girls' Generation",
+                "url": "https://open.spotify.com/embed/track/1ivkDhTITJmT85j4NJY0Nu"
+            },
+            {
+                "song_name": "Airbag (feat. Naul)",
+                "artist": "Tablo",
+                "url": "https://open.spotify.com/embed/track/1pxtl42LkRYmiGXtnaMn50"
+            },
+            {
+                "song_name": "\uc0ac\ub791\ud558\uae30\ub97c (Beloved) (By \uc815\uc7ac\uc6b1)",
+                "artist": "Yiruma",
+                "url": "https://open.spotify.com/embed/track/65pTKVkCu3MEXwAkCBOMGP"
+            },
+            {
+                "song_name": "F*** U (feat. Deepflow, J-Kwondo of 45 RPM)",
+                "artist": "J-Dogg",
+                "url": "https://open.spotify.com/embed/track/2c1Fbb7DfPgp9wULdDNOTP"
+            },
+            {
+                "song_name": "\ud55c\ucc38\uc744 \uc6b8\uc5c8\uc5b4",
+                "artist": "Electroboyz",
+                "url": "https://open.spotify.com/embed/track/3GQav9BHuGn3HhOqHD1aNp"
+            },
+            {
+                "song_name": "Ryu's Reffusal",
+                "artist": "\ubd80\ubd80(Booboo)",
+                "url": "https://open.spotify.com/embed/track/5Kbn22ECwQ3VT2YBDRpnR5"
+            }
+        ]
     },
     "a@12.34": {
         "password": "1234",
@@ -521,6 +622,10 @@
         "recommendations": []
     },
     "1@naver.com": {
+        "password": "1234",
+        "recommendations": []
+    },
+    "v@naver.com": {
         "password": "1234",
         "recommendations": []
     }

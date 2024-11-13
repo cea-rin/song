@@ -19,8 +19,8 @@ templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Spotify API 설정
-cid = '3df9f8aff5b7484dbb08af724c52ff5d'
-secret = '4e2f84d79f914f83b34a7fedbf4d2ab1'
+cid = '67aeb2fe42904937b0b212262261d1f4'
+secret = '1ce9903b3a87499fbb6fc021c470a15a'
 redirect_uri = 'http://localhost:8888/callback'
 client = Spotify(auth_manager=SpotifyOAuth(client_id=cid, client_secret=secret, redirect_uri=redirect_uri))
 
